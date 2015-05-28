@@ -13,3 +13,6 @@ if __name__ == "__main__" :
     cat.Register( human.WakeUp )
     
     cat.Miaow()
+    
+    cat.UnRegister( mouse2.Run )
+    cat.Miaow()

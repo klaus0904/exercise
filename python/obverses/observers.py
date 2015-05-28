@@ -13,6 +13,8 @@ class Cat(object) :
     def Register(self, observer) :
         self.observers.append(observer)
 
+    def UnRegister(self, observer) :
+        self.observers.remove(observer)
 
 class Mouse(object) :
     number = 0
